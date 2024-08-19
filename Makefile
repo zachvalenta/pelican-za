@@ -56,7 +56,7 @@ help:
 	@echo '                                                                          '
 
 build:
-	poetry run pelican content
+	poetry run pelican content -s pelicanconf.py -t ../zjv-peli-theme
 
 srv:
 	poetry run pelican --listen
