@@ -8,6 +8,8 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 # THEME='simple'
+# DISPLAY_PAGES_ON_MENU=False
+# DISPLAY_CATEGORIES_ON_MENU=False
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
